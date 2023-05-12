@@ -10,7 +10,7 @@ namespace ExemploSession.Models
             context.Database.Migrate();
             if (!context.Usuarios.Any())
             {
-                var usuario = new Usuario { Senha = "123456", Nome = "Mairon", Email = "davibragafast@gmail.com" };
+                var usuario = new Usuario { Senha = "123456", Nome = "davi", Email = "davibragafast@gmail.com" };
                 context.Usuarios.AddRange(usuario);
                 context.SaveChanges();
             }

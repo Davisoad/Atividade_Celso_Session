@@ -10,7 +10,6 @@ namespace ExemploSession.Controllers
 {
     public class SessionController : Controller
     {
-        //private static IList<Usuario> usuarios = new List<Usuario>();
 
         public Context context;
 
